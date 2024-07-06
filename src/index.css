@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'Chingcha';
+  src: url('./assets/fonts/SaoChingcha-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ChingchaLight';
+  src: url('./assets/fonts/SaoChingcha-Light.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'ChingchaLight';
+ 
+}
+
+.content {
+  text-align: center;
+  margin: 3rem;
+}
+
+.title {
+  font-family: 'Chingcha';
+  text-align: center;
+  font-size: 8vw;
+}
+h1{
+  font-size: 3.5vw;
+}
+.h2 {
+  padding-top: 7vh;
+  padding-bottom: 7vh;
+  font-size: 2.4vw;
+  margin: 12px 6px;
+}
+.res{
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 768px) {
+  .h2 {
+    font-size: 4vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+  }
+}
+
+.green {
+  font-family: 'Chingcha';
+  color: green;
+}
+
+.bottom {
+  position: relative;
+  animation: animatebottom 0.4s;
+}
+
+@keyframes animatebottom {
+  from {
+    bottom: -300px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}

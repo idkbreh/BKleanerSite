@@ -1,0 +1,51 @@
+/* SimpleForm.css */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400&display=swap');
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.simple-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 1rem;
+}
+
+.simple-form {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.simple-form-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: 'Kanit', sans-serif;
+}
+
+.simple-form .ant-form-item-label > label {
+  font-weight: bold;
+}
+
+.simple-form .ant-form-item {
+  margin-bottom: 0.5rem;
+}
+
+.simple-form-button {
+  width: 100%;
+  background-color: #0072ff;
+  border-color: #0072ff;
+  font-family: 'Kanit', sans-serif;
+}
+
+.simple-form-button:hover,
+.simple-form-button:focus {
+  background-color: #0056d2;
+  border-color: #0056d2;
+}
